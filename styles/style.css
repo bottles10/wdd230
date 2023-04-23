@@ -28,8 +28,8 @@ header > h1 {
     margin: auto;
 }
 img {
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     border-radius: 5px;
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
