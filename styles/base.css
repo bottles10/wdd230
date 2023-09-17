@@ -15,10 +15,7 @@ footer {
 }
 .header-profile {
     display: flex;
-    justify-items: center;
-    /* justify-content: center; */
-    /* border-bottom: 1px solid #fefefe; */
-    
+    justify-items: center; 
 }
 
 .profile-image img {
@@ -31,13 +28,6 @@ footer {
     color: azure;
     align-self: center;
     font-size: small;
-}
-
-ul {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
 }
 
 header nav .nav-links {
@@ -62,6 +52,12 @@ header nav .nav-links li a:hover {
     transition: 300ms;
 }
 
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
 
 /* -------Main -------- */
 
@@ -104,4 +100,14 @@ main h2 {
 }
 .centered {
     text-align: center;
+}
+
+/* ----- Footer -----  */
+
+.last-modified {
+        color: teal;
+}
+
+.copyright {
+    color: #505050;
 }
