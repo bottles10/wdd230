@@ -24,6 +24,7 @@ footer {
 }
 
 .profile-name {
+    font-family: 'Megrim', cursive;
     margin-left: 2rem;
     font: bold;
     color: azure;
