@@ -85,16 +85,19 @@ main h2 {
 }
 
 .card-info {
+    background: #EDFFEC;
     border: 1px solid #545766;
     padding: 10px;
 }
 
 .card-info ul li {
     padding: 5px;
+    font-weight: 900;
 }
 
 .card-info ul li a {
-    color: #EDFFEC;
+    color: #9792E3;
+    font-weight: 500;
 }
 
 .card-info ul li a:hover {
