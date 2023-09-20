@@ -6,7 +6,7 @@ body {
 header,
 main,
 footer {
-    max-width: 640px;
+    max-width: 760px;
     margin: 1rem auto;
     padding: 20px;
     border: 1px solid #cfcfcf;
@@ -66,6 +66,7 @@ a {
 /* -------Main -------- */
 
 main h2 {
+    color: cornsilk;
     text-align: center;
     border-bottom: 1px solid #fefefe;
 }
