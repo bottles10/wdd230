@@ -32,7 +32,8 @@ footer {
     font-size: small;
 }
 
-header nav .nav-links {
+.nav-links {
+    display: none;
     text-align: center;
     font: bold;
     padding: 5px;
@@ -41,19 +42,53 @@ header nav .nav-links {
     border-radius: 5px;
 }
 
-header nav .nav-links li {
+.nav-links li {
     font-weight: 900;
     padding: 5px;
 }
 
-header nav .nav-links li a {
+.nav-links li a {
     color: #fff;
 }
 
-header nav .nav-links li a:hover {
+.nav-links li a:hover {
     color: #9792E3;
     transition: 300ms;
 }
+
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 3px 7px 6px;
+    background-color: #2b7575;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open{
+	display: block;
+}
+/* .open li a {
+	display: block;
+} */
+
+.active::before {
+	content: "📍 ";
+}
+
 
 ul {
     list-style-type: none;

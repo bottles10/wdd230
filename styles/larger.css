@@ -2,6 +2,15 @@
     .profile-name {
         font-size: larger;
     }
+
+    .nav-links {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+    
     .nav-links ul {
         display: flex;
         justify-content: center;
