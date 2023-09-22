@@ -42,6 +42,12 @@ footer {
     border-radius: 5px;
 }
 
+button#mode {
+    float: right;
+    padding: 2px;
+    font-size: x-large;
+}
+
 .nav-links li {
     font-weight: 900;
     padding: 5px;
